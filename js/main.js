@@ -20,6 +20,14 @@ $(document).ready(function() {
 		$(this).addClass('tab-active');
 		$("#"+tab_id).addClass('tab-active');
 	});
+	
+	$('.prog-tab-link').click(function(){
+		var tab_id = $(this).attr('data-tab');
+		$(this).siblings().removeClass('tab-active');
+		$(this).parents(".prog-container-tabs").find('.prog-tab-body').removeClass('tab-active');
+		$(this).addClass('tab-active');
+		$("#"+tab_id).addClass('tab-active');
+	});
 
     $('.nav-pills').click(function(){
 		$(".content-item-programa").show();
