@@ -149,7 +149,7 @@ body{
 	background-color:#ffffff;
 	border:1px solid #C6C6C6;
 	margin-bottom: 15px;
-	min-height: 568px;}
+	/*min-height: 568px;*/}
 .detalle-constancia{
 	position: absolute;
     left: 10px;
@@ -171,7 +171,7 @@ body{
 	width:100%;
 	display:block;
 	font-family: 'Gotham Rounded';
-	padding:10px 15px 5px 15px;}
+	padding:10px 15px 15px 15px;}
 .box-detalles p{
 	margin-bottom: 5px;}
 .box-detalles p .txt-detalle-curso img{
@@ -270,6 +270,19 @@ body{
 			background-color: #ffffff;
 			border: 1px solid #f7a605; }
 
+
+.nav-pills>li.active>a.btn-custom{
+	font-size: 18px;
+	font-family: 'Gotham Rounded';
+	color:#fff;
+	background-color: #e8bf2d;}
+.nav-pills>li>a.btn-custom{
+	font-size: 18px;
+	font-family: 'Gotham Rounded';
+	color:#e8bf2d;
+	background-color: #ffffff;
+	border: 1px solid #e8bf2d; }
+	
 .title-red{
 	font-family: 'Gotham Rounded';
 	color:#FFFFFF;
@@ -496,7 +509,7 @@ body{
 
 }
   .prog-container-tabs{
-	margin-top: 40px;
+	margin-top: 5px;
 	}
   .prog-tabs{
     width: 100%;
@@ -517,6 +530,40 @@ body{
 	align-items: center;
 	justify-content: center;
 	cursor: pointer;
+	text-align:center;
+}
+.prog-tab-link-2{
+	width: 100%;
+	background: #BBBBBB;
+	border-radius: 6px;
+	color: white;
+	font-family: 'Gotham Rounded';	
+	height: 38px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	margin-bottom: 5rem;
+	margin-top: 2rem;
+}
+.sub-menu-curses{
+	background: #8ec3c4;
+	/*margin-top:58rem;*/
+	
+}
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
 .prog-tab-link + .prog-tab-link{
 	margin-left: 24px;
